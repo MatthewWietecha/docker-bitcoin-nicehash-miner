@@ -7,7 +7,7 @@ Project build from [Equihash miner for NiceHash official repo](https://github.co
 - Install [docker](https://www.docker.com/)
 
 #### Use run command
-- Create running container command: `docker run -d --name miner first087/bitcoin-nicehash-miner`
+- Create running container command: `docker run -d --name miner MatthewWietecha/docker-bitcoin-nicehash-miner`
 - Remove running container command: `docker rm -f miner`
 - Config your miner by environment option (`-e VARIABLE=VALUE`)
 
